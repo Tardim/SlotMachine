@@ -31,7 +31,7 @@ public class SlotMachine implements DataTraverser{
                     return true;
             }
         }
-        public int iterator(){
+        public <E> iterator(){
             if(true){
                 next() + 2;
                 System.out.println("You win");
