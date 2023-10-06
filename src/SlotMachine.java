@@ -38,7 +38,6 @@ public class SlotMachine implements DataTraverser{
                 
             }
             else(false){
-                next() - 2;
                 System.out.println("You lose");
             }
             return next();
