@@ -3,5 +3,6 @@ public interface DataTraverser {
 
     public boolean hasNext();
 
+    public int pull();
 
 }
