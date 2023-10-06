@@ -7,6 +7,11 @@ public class SlotMachine implements DataTraverser{
         int initialCoins = coins;
         coins = rand.nextInt(10);
     }
+    public SlotMachine(){
+        while(coins > 0){
+            pull();
+        }
+        
         public int next(){
             if(rand.nextInt(2) == 0){
                 coins++;
@@ -38,9 +43,12 @@ public class SlotMachine implements DataTraverser{
             }
             return next();
     }
-    public int remove(){
-        coins--;
-        for(next() <= coins){
+        public int pull(){
+            coin--
+            }
+        public int remove(){
             coins--;
+            for(next() <= coins){
+                coins--;
                 return coins;
 }
