@@ -25,7 +25,7 @@ public class SlotMachine implements DataTraverser{
                     return true;
             }
         }
-        public int pull(){
+        public int iterator(){
             if(true){
                 next() + 2;
                 System.out.println("You win");
@@ -37,4 +37,9 @@ public class SlotMachine implements DataTraverser{
             }
             return next();
     }
+    public int remove(){
+        coins--;
+        for(next() <= coins){
+            coins--;
+                return coins;
 }
