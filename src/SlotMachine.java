@@ -19,6 +19,7 @@ public class SlotMachine implements DataTraverser{
         public boolean hasNext() {
             while (coins > 0) {
                 if (coins <= 0) {
+                    System.out.println("Out of coins");
                     return false;
                 }
                 else
