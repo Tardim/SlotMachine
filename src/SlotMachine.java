@@ -25,5 +25,16 @@ public class SlotMachine implements DataTraverser{
                     return true;
             }
         }
-
+        public int pull(){
+            if(true){
+                next() + 2;
+                System.out.println("You win");
+                
+            }
+            else(false){
+                next() - 2;
+                System.out.println("You lose");
+            }
+            return next();
+    }
 }
